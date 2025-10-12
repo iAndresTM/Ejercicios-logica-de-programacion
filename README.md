@@ -33,18 +33,18 @@ Si el parámetro de operación no es válido, se mostrará un **mensaje de error
 // Realizar una función que nos permita hacer las 4 operaciones aritméticas
 // Es decir, que nos permita sumar, restar, dividir y multiplicar.
 function calcular(a, b, operacion) {
-  switch (operacion) {
-    case "suma":
-      return console.log(a + b);
-    case "resta":
-      return console.log(a - b);
-    case "multiplicacion":
-      return console.log(a * b);
-    case "division":
-      return b !== 0 ? console.log(a / b) : console.error("Error: División por cero no permitida");
-    default:
-      console.error("Error: Operación no válida");
-  }
+    switch(operacion){
+        case "suma":
+            return console.log(a+b);
+        case "resta":
+            return console.log(a-b);
+        case "multiplicacion":
+            return console.log(a*b);
+        case "division":
+            return console.log(a/b);
+        default:
+            console.error("Error: Operación no válida");
+    }
 }
 
 // Ejemplo de uso:
