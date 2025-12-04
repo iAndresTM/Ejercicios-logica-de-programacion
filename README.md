@@ -48,4 +48,4 @@ function calcular(a, b, operacion) {
 }
 
 // Ejemplo de uso:
-calcular(12, 5, "suma"); // 👉 Resultado: 17
+calcular(12, 5, "suma"); // Resultado: 17
