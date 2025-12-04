@@ -50,3 +50,31 @@ function calcular(a, b, operacion) {
 // Ejemplo de uso:
 calcular(12, 5, "suma"); // Resultado: 17
 
+````
+
+## 🧮 Ejercicio 2: Arreglo que almacene solo numero pares
+
+**Descripción:**  
+Realizar una funcion que almacene en un arreglo todos los numeros pares desde a hasta b:
+
+
+**Código:**
+
+```javascript
+// Realizar una funcion que almacene en un arreglo todos los numeros pares desde a hasta b
+
+function arregloPar(numInicial = 0, numFinal = 0){
+    let arregloDado = [];
+    for(let i = numInicial; i <= numFinal; i++){
+        if(i % 2 === 0){
+            arregloDado.push(i);
+        }
+    }
+    console.log(arregloDado)
+}
+
+
+// Ejemplo de uso:
+arregloPar(2, 6); // Resultado esperado: [2, 4, 6]
+````
+
